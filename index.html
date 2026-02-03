@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickImpact | Marketing Agency</title>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <img src="logosf.png" alt="ClickImpact Logo" class="logo-img">
+        </div>
+
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#sectores">Sectores</a></li>
+                <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+            </ul>
+            
+            <div class="nav-contact">
+                <a href="tel:+524794099162" class="btn-contact">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+52 479 409 9162</span>
+                </a>
+            </div>
+        </div>
+        
+        <button class="nav-toggle" id="navToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</nav>
+
+    <!-- HERO -->
+    <header class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="reveal">Convertimos <span class="highlight">clicks</span><br>en <span class="highlight">clientes reales</span></h1>
+                    <p class="reveal">Estrategias digitales enfocadas en resultados tangibles. Tu éxito digital comienza aquí.</p>
+                    <div class="hero-buttons reveal">
+                        <a href="#contacto" class="btn-primary">
+                            <i class="fas fa-rocket"></i> Quiero crecer mi negocio
+                        </a>
+                        <a href="#servicios" class="btn-secondary">
+                            <i class="fas fa-chart-line"></i> Ver servicios
+                        </a>
+                    </div>
+                    
+                    <div class="hero-stats reveal">
+                        <div class="stat">
+                            <h3>+50</h3>
+                            <p>Clientes Satisfechos</p>
+                        </div>
+                        <div class="divider-stat"></div>
+                        <div class="stat">
+                            <h3>+50</h3>
+                            <p>Proyectos Exitosos</p>
+                        </div>
+                        <div class="divider-stat"></div>
+                        <div class="stat">
+                            <h3>95%</h3>
+                            <p>Retención</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image reveal">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Marketing Digital ClickImpact" class="hero-img">
+                        <div class="image-overlay"></div>
+                        <div class="image-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Resultados Garantizados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <span>Descubre más</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- SERVICIOS -->
+    <section class="services reveal" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Qué hacemos?</h2>
+                <p class="section-subtitle">Soluciones integrales para tu crecimiento digital</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Estrategias Digitales</h3>
+                    <p>Desarrollamos planes personalizados para alcanzar tus objetivos de negocio en el entorno digital con enfoque en ROI.</p>
+                    <a href="#contacto" class="service-link">Más info <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3>Gestión de Redes</h3>
+                    <p>Administramos y optimizamos tus redes sociales para aumentar engagement, seguidores y conversiones reales.</p>
+                    <a href="#contacto" class="service-link">Más info <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO & Contenido</h3>
+                    <p>Mejoramos tu visibilidad en buscadores y creamos contenido estratégico que conecta con tu audiencia.</p>
+                    <a href="#contacto" class="service-link">Más info <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <h3>Meta Ads</h3>
+                    <p>Creamos y optimizamos campañas publicitarias en Facebook e Instagram para maximizar tu retorno de inversión.</p>
+                    <a href="#contacto" class="service-link">Más info <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about reveal" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre ClickImpact</h2>
+                <p class="section-subtitle">Más que una agencia, somos tu socio de crecimiento digital</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        En <strong>ClickImpact</strong> somos una agencia de marketing digital comprometida con transformar 
+                        la presencia online de negocios, emprendedores y marcas. Creemos en estrategias claras, 
+                        creativas y orientadas a resultados medibles que generen impacto real en tu negocio.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Enfoque en resultados tangibles</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Estrategias personalizadas</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Reportes transparentes</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Soporte continuo</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#contacto" class="btn-outline">
+                        <i class="fas fa-handshake"></i> Trabajar con nosotros
+                    </a>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Equipo ClickImpact" class="about-img">
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TARGET -->
+    <section class="targets reveal" id="sectores">
+        <div class="container">
+            <div class="section-header">
+                <h2>Especializados en</h2>
+                <p class="section-subtitle">Sectores donde generamos mayor impacto</p>
+            </div>
+
+            <div class="targets-grid">
+                <div class="target reveal">
+                    <div class="target-header">
+                        <div class="target-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Sector Salud</h3>
+                    </div>
+                    <p>Potenciamos la presencia digital de servicios de salud con estrategias éticas y efectivas.</p>
+                    <ul class="target-list">
+                        <li><i class="fas fa-check"></i> Consultorios médicos</li>
+                        <li><i class="fas fa-check"></i> Clínicas especializadas</li>
+                        <li><i class="fas fa-check"></i> Laboratorios</li>
+                        <li><i class="fas fa-check"></i> Terapeutas y psicólogos</li>
+                    </ul>
+                </div>
+                
+                <div class="target reveal">
+                    <div class="target-header">
+                        <div class="target-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <h3>Negocios Locales</h3>
+                    </div>
+                    <p>Ayudamos a comercios locales a destacar en el entorno digital y atraer más clientes.</p>
+                    <ul class="target-list">
+                        <li><i class="fas fa-check"></i> Restaurantes y cafeterías</li>
+                        <li><i class="fas fa-check"></i> Tiendas de retail</li>
+                        <li><i class="fas fa-check"></i> Servicios profesionales</li>
+                        <li><i class="fas fa-check"></i> Comercios locales</li>
+                    </ul>
+                </div>
+                
+                <div class="target reveal">
+                    <div class="target-header">
+                        <div class="target-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Emprendedores</h3>
+                    </div>
+                    <p>Impulsamos startups y proyectos innovadores desde cero hasta su consolidación.</p>
+                    <ul class="target-list">
+                        <li><i class="fas fa-check"></i> Startups y scaleups</li>
+                        <li><i class="fas fa-check"></i> Marcas personales</li>
+                        <li><i class="fas fa-check"></i> Proyectos digitales</li>
+                        <li><i class="fas fa-check"></i> E-commerce</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact reveal" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hablemos de tu proyecto</h2>
+                <p class="section-subtitle">¡Escanea el código o contáctanos directamente!</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" placeholder="tucorreo@ejemplo.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Teléfono</label>
+                                <input type="tel" id="phone" placeholder="+52 123 456 7890">
+                            </div>
+                            <div class="form-group">
+                                <label for="sector">Sector</label>
+                                <select id="sector" required>
+                                    <option value="" disabled selected>Selecciona tu sector</option>
+                                    <option value="salud">Sector Salud</option>
+                                    <option value="negocios">Negocios Locales</option>
+                                    <option value="emprendedor">Emprendedor</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Cuéntanos sobre tu negocio</label>
+                            <textarea id="message" placeholder="Descríbenos tu negocio, objetivos y lo que esperas lograr..." rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Enviar solicitud
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3><i class="fas fa-info-circle"></i> Información de contacto</h3>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <a href="tel:+524794099162">+52 479 409 9162</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div>
+                                <h4>Sitio Web</h4>
+                                <a href="https://clickimpact.com" target="_blank">clickimpact.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-qrcode"></i>
+                            </div>
+                            <div>
+                                <h4>Escanea para más info</h4>
+                                <p>Más detalles sobre servicios</p>
+                            </div>
+                        </div>
+                        
+                        <div class="qr-container">
+                            <div class="qr-code">
+                                <div class="qr-design">
+                                    <!-- Patrón de código QR simulado -->
+                                    <div class="qr-pattern"></div>
+                                    <div class="qr-logo">CI</div>
+                                </div>
+                                <p class="qr-text">Escanea con tu teléfono</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="footer-logo-main">CLICK<span class="footer-logo-accent">IMPACT</span></span>
+                        <p class="footer-tagline">Convertimos clicks en clientes reales</p>
+                    </div>
+                    <p class="footer-about">
+                        Agencia de marketing digital especializada en generar resultados tangibles para negocios y emprendedores.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio"><i class="fas fa-chevron-right"></i> Inicio</a></li>
+                        <li><a href="#servicios"><i class="fas fa-chevron-right"></i> Servicios</a></li>
+                        <li><a href="#nosotros"><i class="fas fa-chevron-right"></i> Nosotros</a></li>
+                        <li><a href="#sectores"><i class="fas fa-chevron-right"></i> Sectores</a></li>
+                        <li><a href="#contacto"><i class="fas fa-chevron-right"></i> Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Estrategias Digitales</li>
+                        <li><i class="fas fa-check"></i> Gestión de Redes</li>
+                        <li><i class="fas fa-check"></i> SEO & Contenido</li>
+                        <li><i class="fas fa-check"></i> Meta Ads</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <p>Teléfono</p>
+                            <a href="tel:+524794099162">+52 479 409 9162</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p>Correo</p>
+                            <a href="mailto:info@clickimpact.com">info@clickimpact.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <p>Sitio Web</p>
+                            <a href="https://clickimpact.com" target="_blank">clickimpact.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2026 <strong>ClickImpact Marketing Agency</strong>. Todos los derechos reservados.</p>
+                <p class="footer-copy">¡Tu éxito digital comienza aquí!</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        // Navegación móvil
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.innerHTML = navMenu.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Cerrar menú al hacer clic en enlace
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.reveal');
+        
+        function revealOnScroll() {
+            reveals.forEach(el => {
+                const windowHeight = window.innerHeight;
+                const elementTop = el.getBoundingClientRect().top;
+                if (elementTop < windowHeight - 100) {
+                    el.classList.add('active');
+                }
+            });
+        }
+        
+        // Smooth scroll para enlaces del menú
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if(this.getAttribute('href') === '#') return;
+                
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+        
+        // Form submit
+        document.getElementById("contactForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            
+            // Animación de envío
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
+            submitBtn.disabled = true;
+            
+            // Simular envío
+            setTimeout(() => {
+                alert("¡Gracias por contactarnos! 🚀\n\nNos pondremos en contacto contigo en menos de 24 horas.");
+                this.reset();
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }, 1500);
+        });
+        
+        // Inicializar
+        window.addEventListener('DOMContentLoaded', () => {
+            revealOnScroll();
+            // Añadir clase scrolled al nav si se carga en una posición de scroll
+            if (window.scrollY > 50) {
+                document.querySelector('.nav').classList.add('scrolled');
+            }
+        });
+        
+        window.addEventListener('scroll', revealOnScroll);
+    </script>
+
+</body>
+</html>
